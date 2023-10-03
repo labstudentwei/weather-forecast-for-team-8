@@ -1,14 +1,16 @@
 ﻿@page
 @model IndexModel
 @{
+    Layout = null;
     ViewData["Title"] = "Home page";
 }
+
 
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="globals.css" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="~/css/globals1.css" />
+    <link rel="stylesheet" href="~/css/style1.css" />
 </head>
 <body>
     <div class="desktop">
@@ -27,16 +29,18 @@
                                         <div class="overlap-2">
                                             <div class="group-2">
                                                 <div class="group-3">
-                                                    <div class="union-wrapper"><img class="union" src="img/union.svg" /></div>
+                                                    <div class="union-wrapper">
+                                                        <img class="union" src="https://c.animaapp.com/WEjAlq7c/img/union.svg" />
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <img class="img" src="img/rectangle-35.svg" />
-                                            <img class="rectangle-2" src="img/rectangle-41.svg" />
-                                            <img class="rectangle-3" src="img/rectangle-36.svg" />
-                                            <img class="rectangle-4" src="img/rectangle-37.svg" />
-                                            <img class="rectangle-5" src="img/rectangle-38-2.svg" />
-                                            <img class="rectangle-6" src="img/rectangle-39.svg" />
-                                            <img class="rectangle-7" src="img/rectangle-40.svg" />
+                                            <img class="img" src="https://c.animaapp.com/WEjAlq7c/img/rectangle-35.svg" />
+                                            <img class="rectangle-2" src="https://c.animaapp.com/WEjAlq7c/img/rectangle-41.svg" />
+                                            <img class="rectangle-3" src="https://c.animaapp.com/WEjAlq7c/img/rectangle-36.svg" />
+                                            <img class="rectangle-4" src="https://c.animaapp.com/WEjAlq7c/img/rectangle-37.svg" />
+                                            <img class="rectangle-5" src="https://c.animaapp.com/WEjAlq7c/img/rectangle-38.svg" />
+                                            <img class="rectangle-6" src="https://c.animaapp.com/WEjAlq7c/img/rectangle-39.svg" />
+                                            <img class="rectangle-7" src="https://c.animaapp.com/WEjAlq7c/img/rectangle-40.svg" />
                                         </div>
                                     </div>
                                 </div>
@@ -45,16 +49,18 @@
                                         <div class="overlap-3">
                                             <div class="group-5">
                                                 <div class="group-6">
-                                                    <div class="img-wrapper"><img class="union-2" src="img/union-2.svg" /></div>
+                                                    <div class="img-wrapper">
+                                                        <img class="union-2" src="https://c.animaapp.com/WEjAlq7c/img/union-1.svg" />
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <img class="rectangle-8" src="img/rectangle-35-2.svg" />
-                                            <img class="rectangle-9" src="img/rectangle-41-2.svg" />
-                                            <img class="rectangle-10" src="img/rectangle-36-2.svg" />
-                                            <img class="rectangle-11" src="img/rectangle-37-2.svg" />
-                                            <img class="rectangle-12" src="img/rectangle-38.svg" />
-                                            <img class="rectangle-13" src="img/rectangle-39-2.svg" />
-                                            <img class="rectangle-14" src="img/image.svg" />
+                                            <img class="rectangle-8" src="https://c.animaapp.com/WEjAlq7c/img/rectangle-35-1.svg" />
+                                            <img class="rectangle-9" src="https://c.animaapp.com/WEjAlq7c/img/rectangle-41-1.svg" />
+                                            <img class="rectangle-10" src="https://c.animaapp.com/WEjAlq7c/img/rectangle-36-1.svg" />
+                                            <img class="rectangle-11" src="https://c.animaapp.com/WEjAlq7c/img/rectangle-37-1.svg" />
+                                            <img class="rectangle-12" src="https://c.animaapp.com/WEjAlq7c/img/rectangle-38-1.svg" />
+                                            <img class="rectangle-13" src="https://c.animaapp.com/WEjAlq7c/img/rectangle-39-1.svg" />
+                                            <img class="rectangle-14" src="https://c.animaapp.com/WEjAlq7c/img/rectangle-40-1.svg" />
                                         </div>
                                     </div>
                                 </div>
@@ -69,19 +75,25 @@
                         <div class="group-8">
                             <div class="overlap-group-2">
                                 <div class="rectangle-15"></div>
-                                <div class="text-wrapper-3">go</div>
+                                <div class="text-wrapper-3">
+                                    <!-- when pressing this button, it should submit and take you to the forecast page -->
+                                    <button type="submit" form="cityForm" class="button">go</button>                                   
+                                </div>
                             </div>
                         </div>
-                        <img class="polygon" src="img/polygon-1-2.svg" />
                     </div>
                 </div>
-                <img class="peter-zhang" src="img/peter-zhang-0y4woihgldu-unsplash-1.png" />
+                <img class="peter-zhang" src="https://c.animaapp.com/WEjAlq7c/img/peter-zhang-0y4woihgldu-unsplash-1.png" />
                 <div class="group-9">
                     <div class="group-10">
                         <div class="overlap-group-3">
                             <div class="rectangle-16"></div>
-                            <div class="text-wrapper-4">city</div>
-                            <img class="polygon-2" src="img/polygon-1.svg" />
+                            <div class="text-wrapper-4">
+                                <form id="cityForm" method="post">
+                                    <!-- Where you input Value for City-->
+                                    <input asp-for="City" type="text" placeholder="city">
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
