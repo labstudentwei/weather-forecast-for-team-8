@@ -1,4 +1,4 @@
-.desktop {
+ .desktop {
     background-color: #8292ac;
     display: flex;
     flex-direction: row;
@@ -360,6 +360,7 @@
         position: relative;
         width: 277px;
         height: 85px;
+ 
     }
 
     .desktop .rectangle-15 {
@@ -369,6 +370,9 @@
         top: 8px;
         left: 0;
         background-color: #8292ac;
+       
+        
+        
     }
 
     .desktop .text-wrapper-3 {
@@ -380,10 +384,13 @@
         font-weight: 400;
         color: #ffffff;
         font-size: 64px;
-        text-align: center;
+        
         letter-spacing: 0;
         line-height: normal;
         white-space: nowrap;
+     
+    
+    
     }
 
     .desktop .polygon {
@@ -430,22 +437,25 @@
         top: 7px;
         left: 0;
         background-color: #8292ac;
+        text-align: center;
     }
 
-    .desktop .text-wrapper-4 {
-        position: absolute;
-        width: 166px;
-        top: 0;
-        left: 0;
-        font-family: "Irish Grover", Helvetica;
-        font-weight: 400;
-        color: #ffffff;
-        font-size: 64px;
-        text-align: center;
-        letter-spacing: 0;
-        line-height: normal;
-        white-space: nowrap;
-    }
+    
+        .desktop .text-wrapper-4 {
+            position: absolute;
+            width: 277px; 
+            top: 0;
+            left: 0;
+            font-family: "Irish Grover", Helvetica;
+            font-weight: 400;
+            color: #ffffff;
+            font-size: 40px; 
+            text-align: center;
+            letter-spacing: 0;
+            line-height: normal;
+            white-space: nowrap;
+            margin: 0 auto; 
+        }
 
     .desktop .polygon-2 {
         position: absolute;
@@ -454,3 +464,23 @@
         top: 30px;
         left: 198px;
     }
+    
+    .desktop .text-wrapper-3 button {
+        
+        background-color: #8292ac;
+        border: none;
+        color: #ffffff;
+        font-size: 40px; 
+        text-align: center;
+        width: 277px;
+        height: 60px;
+        padding: 0;
+        margin: 0 auto; 
+        transition: background-color 0.3s ease;
+       }
+    .desktop .text-wrapper-3 button:hover {
+        background-color: #ffffff; 
+        color:#8292ac;
+    }
+
+
