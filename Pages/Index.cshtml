@@ -1,4 +1,4 @@
-﻿@page
+@page
 @model IndexModel
 @{
     Layout = null;
@@ -19,6 +19,7 @@
                 <div class="rectangle"></div>
                 <div class="group">
                     <div class="overlap-group">
+                        
                         <div class="sunny">
                             <div class="ellipse-wrapper"><div class="ellipse"></div></div>
                         </div>
@@ -87,12 +88,15 @@
                 <div class="group-9">
                     <div class="group-10">
                         <div class="overlap-group-3">
-                            <div class="rectangle-16"></div>
+                            <div class="rectangle-16">
                             <div class="text-wrapper-4">
+                            
                                 <form id="cityForm" method="post">
                                     <!-- Where you input Value for City-->
-                                    <input asp-for="City" type="text" placeholder="city">
+                                    <input asp-for="City" type="text" placeholder="city" style="width: 277px; height: 60px;">
                                 </form>
+                                
+                            </div>
                             </div>
                         </div>
                     </div>
@@ -100,5 +104,8 @@
             </div>
         </div>
     </div>
+    
+    <!-- <img src="../image001.png" alt="sun" class="sun-image"> -->
+
 </body>
 </html>
