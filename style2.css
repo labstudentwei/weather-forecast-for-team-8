@@ -1,0 +1,195 @@
+﻿.desktop {
+    background-color: #8292ac;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+    .desktop .div {
+        background-color: #8292ac;
+        width: 1440px;
+        height: 1024px;
+        position: relative;
+    }
+
+    .desktop .image {
+        width: 460px;
+        height: 461px;
+        left: 980px;
+        position: absolute;
+        top: 0;
+        object-fit: cover;
+    }
+
+    .desktop .overlap {
+        position: absolute;
+        width: 1306px;
+        height: 462px;
+        top: 562px;
+        left: 0;
+    }
+
+    .desktop .overlap-group {
+        position: absolute;
+        width: 1306px;
+        height: 462px;
+        top: 0;
+        left: 0;
+    }
+
+    .desktop .overlap-2 {
+        position: absolute;
+        width: 1145px;
+        height: 462px;
+        top: 0;
+        left: 0;
+    }
+
+    .desktop .img {
+        width: 469px;
+        height: 462px;
+        left: 0;
+        position: absolute;
+        top: 0;
+        object-fit: cover;
+    }
+
+    .desktop .text-wrapper {
+        position: absolute;
+        width: 583px;
+        top: 57px;
+        left: 339px;
+        font-family: "Irish Grover", Helvetica;
+        font-weight: 400;
+        color: #ffffff;
+        font-size: 40px;
+        text-align: center;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .desktop .text-wrapper-2 {
+        position: absolute;
+        width: 794px;
+        top: 218px;
+        left: 351px;
+        font-family: "Irish Grover", Helvetica;
+        font-weight: 400;
+        color: #ffffff;
+        font-size: 40px;
+        text-align: center;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .desktop .text-wrapper-3 {
+        position: absolute;
+        width: 770px;
+        top: 367px;
+        left: 335px;
+        font-family: "Irish Grover", Helvetica;
+        font-weight: 400;
+        color: #ffffff;
+        font-size: 40px;
+        text-align: center;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .desktop .text-wrapper-4 {
+        top: 57px;
+        left: 1132px;
+        position: absolute;
+        width: 174px;
+        font-family: "Irish Grover", Helvetica;
+        font-weight: 400;
+        color: #ffffff;
+        font-size: 40px;
+        text-align: center;
+        letter-spacing: 0;
+        line-height: normal;
+        white-space: nowrap;
+    }
+
+    .desktop .text-wrapper-5 {
+        top: 367px;
+        left: 1123px;
+        position: absolute;
+        width: 174px;
+        font-family: "Irish Grover", Helvetica;
+        font-weight: 400;
+        color: #ffffff;
+        font-size: 40px;
+        text-align: center;
+        letter-spacing: 0;
+        line-height: normal;
+        white-space: nowrap;
+    }
+
+    .desktop .text-wrapper-6 {
+        position: absolute;
+        width: 132px;
+        top: 218px;
+        left: 1153px;
+        font-family: "Irish Grover", Helvetica;
+        font-weight: 400;
+        color: #ffffff;
+        font-size: 40px;
+        text-align: center;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .desktop .overlap-3 {
+        position: absolute;
+        width: 724px;
+        height: 225px;
+        top: 197px;
+        left: 63px;
+    }
+
+    .desktop .text-wrapper-7 {
+        position: absolute;
+        width: 724px;
+        top: 0;
+        left: 0;
+        font-family: "Irish Grover", Helvetica;
+        font-weight: 400;
+        color: #ffffff;
+        font-size: 64px;
+        text-align: center;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .desktop .group {
+        position: absolute;
+        width: 446px;
+        height: 74px;
+        top: 151px;
+        left: 151px;
+    }
+
+    .desktop .div-wrapper {
+        position: relative;
+        width: 444px;
+        height: 74px;
+        background-color: #ffffff;
+        border-radius: 45px;
+    }
+
+    .desktop .text-wrapper-8 {
+        position: absolute;
+        width: 440px;
+        top: 15px;
+        left: 0;
+        font-family: "Irish Grover", Helvetica;
+        font-weight: 400;
+        color: #8292ac;
+        font-size: 40px;
+        text-align: center;
+        letter-spacing: 0;
+        line-height: normal;
+        white-space: nowrap;
+    }
