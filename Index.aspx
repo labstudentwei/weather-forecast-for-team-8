@@ -72,7 +72,7 @@
                                 <div class="rectangle-15"></div>
                                 <div class="text-wrapper-3">                               
                                     <!-- when pressing this button, it should submit and take you to the forecast page -->                                   
-                                    <asp:Button ID="GoButton" runat="server" Text="Go" OnClick="GoButton_Click" Height="50" Width="50" />
+                                    <asp:Button ID="GoButton" runat="server" Text="Go" OnClick="GoButton_Click" CssClass="myButton" />
                                 </div>
                             </div>
                         </div>
@@ -82,10 +82,10 @@
                 <div class="group-9">
                     <div class="group-10">
                         <div class="overlap-group-3">
-                            <div class="rectangle-16"></div>
+                            <div class="rectangle-16">
                             <div class="text-wrapper-4">                         
                                     
-                                     <asp:DropDownList ID="CityDropDownList" runat="server" Width="100" Height="20">
+                                     <asp:DropDownList ID="CityDropDownList" runat="server" CssClass="myDropdown">
                                      <asp:ListItem>Helsinki</asp:ListItem>
                                      <asp:ListItem>Espoo</asp:ListItem>
                                      <asp:ListItem>Tampere</asp:ListItem>
@@ -98,6 +98,7 @@
                                      <asp:ListItem>Pori</asp:ListItem>              
                                      </asp:DropDownList>                              
                             </div>
+                                </div>
                         </div>
                     </div>
                 </div> 

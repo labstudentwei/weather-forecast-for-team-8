@@ -384,6 +384,24 @@
         letter-spacing: 0;
         line-height: normal;
         white-space: nowrap;
+
+       .myButton
+{
+    display: inline-block;
+    position: absolute;
+    top: 50px;
+    left: -2px;
+    width: 260px; /* 按钮宽度 */
+    height: 60px; /* 按钮高度 */
+    background-color: #8292ac; /* 按钮颜色 */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
     }
 
     .desktop .polygon {
@@ -423,13 +441,26 @@
         top: -1px;
     }
 
-    .desktop .rectangle-16 {
-        position: absolute;
-        width: 277px;
-        height: 77px;
-        top: 7px;
-        left: 0;
-        background-color: #8292ac;
+.desktop .rectangle-16 {
+    position: absolute;
+    width: 277px;
+    height: 77px;
+    top: 7px;
+    left: 0;
+    background-color: #8292ac;
+    .myDropdown
+{
+    position: absolute;
+    font-family: "Irish Grover", Helvetica;
+    width: 200px; /* 下拉框宽度 */
+    height: 40px; /* 下拉框高度 */
+    top: 40px; /* 垂直居中 */
+    left: 100px; /* 水平居中 */
+    transform: translate(-50%, -50%);
+    background-color: #ffffff; /* 下拉框颜色 */
+    color: #000000; /* 文本颜色 */
+    font-size: 32px; /* 文本大小 */
+}
     }
 
     .desktop .text-wrapper-4 {
